@@ -1,0 +1,114 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e6e6e6; 
+}
+
+header {
+  background-image: url('https://i.pinimg.com/236x/59/a7/8b/59a78b0561b05a3529758adc784a37bd.jpg');
+  background-color: black;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.profile-img img {
+  width: 250px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px; 
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+section {
+  padding: 50px 0;
+}
+
+h2 {
+  color: black; 
+}
+
+.project {
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.project-img img {
+  width: 200px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.project-info {
+  flex-grow: 1;
+  color: black; /* Dark gray project info text color */
+}
+
+footer {
+  background-color: #222; /* Dark footer background */
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.skills {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+}
+
+.column h3 {
+  color: #444;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.column p {
+  margin: 0;
+  line-height: 1.5;
+  color: #666;
+}
+body {
+  background-image: url('https://4kwallpapers.com/images/wallpapers/sunrise-blue-sky-panorama-early-morning-dawn-5k-3840x2160-3644.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Fixed background */
+}
+
+header {
+  background-image: url('https://www.dimoremilano.com/wp-content/uploads/2020/05/Dimoremilano_Mohair_Deep_Blue_Fabric-1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 50px 0; /* Adjust padding as needed */
+}
+
+/* Other CSS rules for styling */
